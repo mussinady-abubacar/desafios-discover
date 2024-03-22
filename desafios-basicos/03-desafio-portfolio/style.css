@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Merriweather Sans", sans-serif;
+    --body-bg-color: #22212C;
+    --box-bg-color: #302F3D;
+    --text-color: #837E9F;
+    --border-color: #00FF00;
+    --color01: #CB92B1;
+    --color02: #E7DE79;
+    --color-black: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+main {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.conteiner-1{
+    display: grid;
+    gap: 30px;
+}
+
+.box {
+    width: 100%;
+    max-width: 35rem;
+    background-color: var(--box-bg-color);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box-profile {
+    text-align: center;
+}
+
+.box-profile img {
+    max-width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    margin-bottom: 30px;
+}
+
+.box-profile h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.box-profile p {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.box-social {
+    display: grid;
+    gap: 29px;
+}
+
+.social a, .location {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-social .social ion-icon {
+    font-size: 24px;
+}
+
+.social a span, .location {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: repeat(3, 87px);
+    gap: 15px;
+}
+
+.tech p {
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--color-black);
+    background-color: var(--color01);
+    padding: 7px;
+    width: 87px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.experience ul, .education ul {
+    display: grid;
+    gap: 22px;
+    margin-left: 36px;
+}
+
+ul li {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul li span {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/* ================================================================ */
+.box-1 {
+    width: 100%;
+    background-color: var(--box-bg-color);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.conteiner-2 {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-header h2 {
+    margin-bottom: 0;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project {
+    width: 100%;
+    max-width: 462px;
+}
+
+.project ion-icon {
+    font-size: 20px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-name {
+    margin-bottom: 27px;
+}
+
+.project-name p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.name span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.star p, .info-name {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-name ion-icon {
+    color: var(--color02);
+}
+
+/* ============================================================================== */
+
+.post-header h2 {
+    margin-bottom: 0;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-post {
+    display: grid;
+    gap: 30px;
+}
+
+.post-profile img {
+    max-width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.post-body {
+    display: grid;
+    gap: 28px;
+}
+
+.post-top h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-top p {
+    font-size: 14px;
+}
+
+.post-info h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info-tag {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+
+footer a {
+    text-decoration: underline;
+}
